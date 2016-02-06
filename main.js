@@ -65,7 +65,7 @@ $(function () {
     .position(function (data) {
       return {x: data.x, y: data.y};
     })
-    .style('radius', 5)
+    .style('radius', 7)
     .style('strokeColor', red)
     .style('strokeWidth', 2)
     .style('strokeOpacity', 0.7)
