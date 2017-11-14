@@ -3,7 +3,7 @@ $(function () {
    //var map = geo.map({'node': '#map'}).createLayer('osm');
    var map = geo.map({'node': '#map', zoom: 2});
    var osm = map.createLayer('osm', {
-     baseUrl: 'http://otile1.mqcdn.com/tiles/1.0.0/sat'
+     baseUrl: 'https://tile.openstreetmap.org/'
      });
   var features = map.createLayer('feature', {renderer: 'd3'});
 
